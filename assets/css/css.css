@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
+}
+
+#fieldsetOne{
+    background-color: #D2D58B;
+    display: flex;
+    flex-direction: column;
+}
+
+#fieldsetTwo{
+    background-color: #532E2C;
+    display: flex;
+    flex-direction: column;
+}
+
+#fieldsetThree{
+    background-color: #B10000;
+}
+
+.button{
+    background-color: #84871A
+}
+
+body{
+    background-image: url("../img/bg-stars.gif");
+}

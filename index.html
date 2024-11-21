@@ -12,7 +12,7 @@
 </header>
 <main>
   <form>
-    <fieldset>
+    <fieldset id="fieldsetOne">
       <h2 id="someInformationAboutYou">Some information about you</h2>
       <label for="whoAreYou">Who are you?</label>
       <input type="text" name="whoAreYou" id="whoAreYou">
@@ -28,7 +28,7 @@
         <option value="Venus">Venus</option>
       </select>
     </fieldset>
-    <fieldset>
+    <fieldset id="fieldsetTwo">
       <h2 id="somethingToPleaseSanta">Something to please Santa</h2>
       <p>Which do you like better: the elves or the reindeer?</p>
       <input type="radio" id="elves" name="preference" value="elves">
@@ -51,12 +51,12 @@
       <label for="trees">How many x-mas trees do you own?</label>
       <input type="text" name="trees" id="trees">
     </fieldset>
-    <fieldset>
+    <fieldset id="fieldsetThree">
       <h2 id="requests">At least... your requests</h2>
       <label for="reaction">So, what will it be?</label>
       <textarea name="requests" id="reaction"></textarea>
     </fieldset>
-    <input id="verzenden" type="submit" value="verzenden">
+    <input id="send" type="submit" value="send">
   </form>
 </main>
 </body>
