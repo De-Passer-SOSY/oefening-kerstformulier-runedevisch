@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kerstformulier</title>
+  <link rel="stylesheet" href="assets/css/css.css">
+</head>
+<body>
+<header>
+  <img src="assets/img/xmas-tree.gif" alt="Logo" height="304" width="294"/>
+  <h1>Make a wishlist for Santa !</h1>
+</header>
+<main>
+  <form>
+    <fieldset>
+      <h2 id="someInformationAboutYou">Some information about you</h2>
+      <label for="whoAreYou">Who are you?</label>
+      <input type="text" name="whoAreYou" id="whoAreYou">
+      <label for="email"> Where shall we mail your pending approval to?</label>
+      <input type="email" name="email" id="email">
+      <label for="telefoon"> Can E.T. phone home?</label>
+      <input type="text" name="telefoon" id="telefoon">
+      <label for="planeet">Where are you from?</label>
+      <select name="planeet" id="planeet">
+        <option value="Earth">Earth</option>
+        <option value="Mars">Mars</option>
+        <option value="Jupiter">Jupiter</option>
+        <option value="Venus">Venus</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <h2 id="somethingToPleaseSanta">Something to please Santa</h2>
+      <p>Which do you like better: the elves or the reindeer?</p>
+      <input type="radio" id="elves" name="preference" value="elves">
+      <label for="elves">elves</label>
+      <input type="radio" id="reindeer" name="preference" value="reindeer">
+      <label for="reindeer">reindeer</label>
+      <p> What do you usually decorate your x-mas tree with?</p>
+      <input type="checkbox" id="balls" name="balls" value="Balls">
+      <label for="balls">Balls</label>
+      <input type="checkbox" id="lights" name="lights" value="Lights">
+      <label for="lights">Lights</label>
+      <input type="checkbox" id="snow" name="snow" value="Snow">
+      <label for="snow">Snow</label>
+      <input type="checkbox" id="littleMan" name="littleMan" value="Little Man">
+      <label for="littleMan">Little Man</label>
+      <input type="checkbox" id="fireworks" name="fireworks" value="Fireworks">
+      <label for="fireworks">Fireworks!</label>
+      <label for="movie">What is your favourite x-mas movie</label>
+      <input type="text" name="movie" id="movie">
+      <label for="trees">How many x-mas trees do you own?</label>
+      <input type="text" name="trees" id="trees">
+    </fieldset>
+    <fieldset>
+      <h2 id="requests">At least... your requests</h2>
+      <label for="reaction">So, what will it be?</label>
+      <textarea name="requests" id="reaction"></textarea>
+    </fieldset>
+    <input id="verzenden" type="submit" value="verzenden">
+  </form>
+</main>
+</body>
+</html>
