@@ -4,6 +4,7 @@
 
 body{
     font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #D2D58B;
     display: flex;
     flex-direction: column;
+
 }
 
 #fieldsetTwo{
@@ -33,3 +35,4 @@ h1, h2, h3, h4, h5, h6{
 body{
     background-image: url("../img/bg-stars.gif");
 }
+
