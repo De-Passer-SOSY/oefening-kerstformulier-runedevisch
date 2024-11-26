@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-  <img src="assets/img/xmas-tree.gif" alt="Logo" height="304" width="294"/>
+  <img id="logo" src="assets/img/xmas-tree.gif" alt="Logo" height="304" width="294"/>
   <h1>Make a wishlist for Santa !</h1>
 </header>
 <main>
@@ -31,9 +31,9 @@
     <fieldset id="fieldsetTwo">
       <h2 id="somethingToPleaseSanta">Something to please Santa</h2>
       <p>Which do you like better: the elves or the reindeer?</p>
-      <input type="radio" id="elves" name="preference" value="elves">
+      <input class="preference" type="radio" id="elves" name="preference" value="elves">
       <label for="elves">elves</label>
-      <input type="radio" id="reindeer" name="preference" value="reindeer">
+      <input class="preference" type="radio" id="reindeer" name="preference" value="reindeer">
       <label for="reindeer">reindeer</label>
       <p> What do you usually decorate your x-mas tree with?</p>
       <input type="checkbox" id="balls" name="balls" value="Balls">
@@ -56,7 +56,7 @@
       <label for="reaction">So, what will it be?</label>
       <textarea name="requests" id="reaction"></textarea>
     </fieldset>
-    <input id="send" type="submit" value="send">
+    <input id="send" type="submit" value="send to santa!">
   </form>
 </main>
 </body>
